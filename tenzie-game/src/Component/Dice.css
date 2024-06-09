@@ -1,0 +1,13 @@
+.dice {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 7px #888888;
+  transition: 1s;
+  cursor: pointer;
+}
+.dice-image{
+  width: 50px;
+}

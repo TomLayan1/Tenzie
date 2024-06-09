@@ -1,0 +1,45 @@
+.App{
+  background-color: white;
+  width: 390px;
+  height: 320px;
+  padding: 35px;
+  margin: 10% auto;
+  border-radius: 30px;
+}
+.name-container {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 13px;
+  text-align: center;
+}
+
+.dice-constainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 13px;
+}
+.btn-container{
+  width: 92.16px;
+  height: 35.84px;
+  margin: auto;
+  margin-top: 22px;
+  border-radius: 7px;
+}
+button {
+  width: 100%;
+  height: 100%;
+  background-color: #5035FF;
+  color: white;
+  border: none;
+  border-radius: inherit;
+  cursor: pointer;
+}
